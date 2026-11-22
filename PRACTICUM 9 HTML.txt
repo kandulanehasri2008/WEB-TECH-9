@@ -1,0 +1,1626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse medical tests, packages and book an appointment at Meridian Diagnostic Centre.">
+  <title>Meridian Diagnostic Centre | Medical Tests &amp; Online Booking</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ============ HEADER & NAVIGATION ============ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <img alt="Meridian Diagnostic Centre logo"
+             src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23ffffff'/%3E%3Cpath d='M26 14h12v14l10 18a6 6 0 0 1-5 9H21a6 6 0 0 1-5-9l10-18z' fill='none' stroke='%230a4f54' stroke-width='4' stroke-linejoin='round'/%3E%3Cpath d='M22 42h20' stroke='%23b8480f' stroke-width='4'/%3E%3C/svg%3E">
+        <div>
+          <h1>Meridian Diagnostic Centre</h1>
+          <p>Accurate tests. Clear reports. Easy booking.</p>
+        </div>
+      </div>
+
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#tests">Tests</a></li>
+          <li><a href="#price-list">Price list</a></li>
+          <li><a href="#basket">Basket <span class="count" id="basket-count" hidden>0</span></a></li>
+          <li><a href="#packages">Health packages</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#media">Video &amp; map</a></li>
+          <li><a href="#how-it-works">How it works</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="nav-cta"><a href="#book">Book a test</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO SECTION ============ -->
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div>
+        <h2 id="hero-title">Book your medical tests in minutes</h2>
+        <p class="lede">
+          Meridian Diagnostic Centre offers blood tests, imaging, heart and
+          hormone screening under one roof. Pick your tests, choose a time,
+          and we will have your report ready, usually within a day.
+        </p>
+        <p><a class="button" href="#book">Book an appointment</a></p>
+        <p>Prefer to talk? Call <a href="tel:+914400000000">+91 44 0000 0000</a>.</p>
+        <ul class="hero-points">
+          <li>Same-day reports for most tests</li>
+          <li>Home sample collection</li>
+          <li>Online booking</li>
+        </ul>
+      </div>
+      <figure class="hero-figure">
+      <img alt="Illustration of laboratory test tubes in a rack"
+           src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 340'%3E%3Crect width='480' height='340' fill='%23dcebe9'/%3E%3Crect x='70' y='210' width='340' height='28' rx='6' fill='%230a4f54'/%3E%3Cg stroke='%230a4f54' stroke-width='6' fill='%23ffffff'%3E%3Crect x='100' y='70' width='44' height='150' rx='22'/%3E%3Crect x='170' y='70' width='44' height='150' rx='22'/%3E%3Crect x='240' y='70' width='44' height='150' rx='22'/%3E%3Crect x='310' y='70' width='44' height='150' rx='22'/%3E%3C/g%3E%3Crect x='106' y='150' width='32' height='64' rx='16' fill='%23b8480f'/%3E%3Crect x='176' y='125' width='32' height='89' rx='16' fill='%230e6f75'/%3E%3Crect x='246' y='170' width='32' height='44' rx='16' fill='%23b8480f'/%3E%3Crect x='316' y='140' width='32' height='74' rx='16' fill='%230e6f75'/%3E%3Ctext x='240' y='290' font-family='Georgia' font-size='26' text-anchor='middle' fill='%2314262c'%3ETrusted results%3C/text%3E%3C/svg%3E" width="480" height="340">
+      <span class="tag-float">Home collection available</span>
+      <figcaption>Every sample is labelled and tracked from collection to report.</figcaption>
+    </figure>
+    </section>
+
+    <!-- ============ TEST CATEGORIES ============ -->
+    <section id="tests" aria-labelledby="tests-title">
+      <h2 id="tests-title">Tests we offer</h2>
+      <p class="lede">Choose from our main test categories. Each one lists the common tests included.</p>
+
+      <div class="test-groups">
+        <article class="test-group">
+          <img alt="Blood drop icon"
+               src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath d='M24 4C16 16 10 23 10 31a14 14 0 0 0 28 0c0-8-6-15-14-27z' fill='%23b8480f'/%3E%3C/svg%3E">
+          <h3>Blood tests</h3>
+          <p>Routine and specialised tests from a small blood sample.</p>
+          <ul>
+            <li>Complete Blood Count (CBC)</li>
+            <li>Blood sugar (fasting and post-meal)</li>
+            <li>Lipid profile</li>
+            <li>Liver and kidney function</li>
+          </ul>
+          <button type="button" class="toggle-btn" aria-expanded="false" aria-controls="tips-blood">
+            <span>Preparation tips</span><span class="chevron" aria-hidden="true"></span>
+          </button>
+          <div class="collapsible" id="tips-blood"><div><p>Fast for 8 to 12 hours before sugar and lipid tests. Plain water is fine. Most blood reports are ready the same day.</p></div></div>
+        </article>
+
+        <article class="test-group">
+          <img alt="Scan icon"
+               src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='18' fill='none' stroke='%230e6f75' stroke-width='5'/%3E%3Ccircle cx='24' cy='24' r='7' fill='%230e6f75'/%3E%3C/svg%3E">
+          <h3>Imaging and scans</h3>
+          <p>Painless scans reported by qualified radiologists.</p>
+          <ul>
+            <li>X-ray</li>
+            <li>Ultrasound (abdomen and pelvis)</li>
+            <li>ECG</li>
+            <li>Echocardiogram</li>
+          </ul>
+          <button type="button" class="toggle-btn" aria-expanded="false" aria-controls="tips-imaging">
+            <span>Preparation tips</span><span class="chevron" aria-hidden="true"></span>
+          </button>
+          <div class="collapsible" id="tips-imaging"><div><p>Remove jewellery and metal items. For an abdomen ultrasound, fast for 6 hours and arrive with a full bladder. X-ray reports take about 2 hours.</p></div></div>
+        </article>
+
+        <article class="test-group">
+          <img alt="Hormone and thyroid icon"
+               src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath d='M8 30c4-18 12-18 16-8 4-10 12-10 16 8-8-4-12 0-16 6-4-6-8-10-16-6z' fill='%230a4f54'/%3E%3C/svg%3E">
+          <h3>Hormone and thyroid</h3>
+          <p>Tests that help find the cause of tiredness, weight change and more.</p>
+          <ul>
+            <li>Thyroid profile (T3, T4, TSH)</li>
+            <li>Vitamin D and B12</li>
+            <li>HbA1c (3-month sugar average)</li>
+          </ul>
+          <button type="button" class="toggle-btn" aria-expanded="false" aria-controls="tips-hormone">
+            <span>Preparation tips</span><span class="chevron" aria-hidden="true"></span>
+          </button>
+          <div class="collapsible" id="tips-hormone"><div><p>Thyroid, Vitamin D and HbA1c tests need no fasting. Take your usual medicines unless your doctor says otherwise. Reports are ready the next day.</p></div></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ PRICE LIST (TABLE) ============ -->
+    <section id="price-list" aria-labelledby="price-title">
+      <h2 id="price-title">Test price list</h2>
+
+      <div class="table-wrap">
+        <table>
+          <caption>Prices are in Indian rupees (INR) and include sample collection at the centre.</caption>
+          <thead>
+            <tr>
+              <th scope="col">Test</th>
+              <th scope="col">Preparation</th>
+              <th scope="col">Report time</th>
+              <th scope="col">Price (INR)</th>
+              <th scope="col">Basket</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Complete Blood Count (CBC)</th>
+              <td>No fasting needed</td>
+              <td>Same day</td>
+              <td class="price">350</td>
+              <td class="action"><button type="button" class="mini-btn add-test" data-id="cbc" data-name="Complete Blood Count (CBC)" data-price="350" aria-label="Add Complete Blood Count (CBC) to basket">Add</button></td>
+            </tr>
+            <tr>
+              <th scope="row">Fasting Blood Sugar</th>
+              <td>Fast for 8 to 10 hours</td>
+              <td>Same day</td>
+              <td class="price">120</td>
+              <td class="action"><button type="button" class="mini-btn add-test" data-id="sugar" data-name="Fasting Blood Sugar" data-price="120" aria-label="Add Fasting Blood Sugar to basket">Add</button></td>
+            </tr>
+            <tr>
+              <th scope="row">Lipid Profile</th>
+              <td>Fast for 10 to 12 hours</td>
+              <td>Same day</td>
+              <td class="price">600</td>
+              <td class="action"><button type="button" class="mini-btn add-test" data-id="lipid" data-name="Lipid Profile" data-price="600" aria-label="Add Lipid Profile to basket">Add</button></td>
+            </tr>
+            <tr>
+              <th scope="row">Thyroid Profile (T3, T4, TSH)</th>
+              <td>No fasting needed</td>
+              <td>Next day</td>
+              <td class="price">550</td>
+              <td class="action"><button type="button" class="mini-btn add-test" data-id="thyroid" data-name="Thyroid Profile (T3, T4, TSH)" data-price="550" aria-label="Add Thyroid Profile (T3, T4, TSH) to basket">Add</button></td>
+            </tr>
+            <tr>
+              <th scope="row">Vitamin D (25-OH)</th>
+              <td>No fasting needed</td>
+              <td>Next day</td>
+              <td class="price">1,100</td>
+              <td class="action"><button type="button" class="mini-btn add-test" data-id="vitd" data-name="Vitamin D (25-OH)" data-price="1100" aria-label="Add Vitamin D (25-OH) to basket">Add</button></td>
+            </tr>
+            <tr>
+              <th scope="row">Chest X-ray</th>
+              <td>Remove metal items</td>
+              <td>Within 2 hours</td>
+              <td class="price">450</td>
+              <td class="action"><button type="button" class="mini-btn add-test" data-id="xray" data-name="Chest X-ray" data-price="450" aria-label="Add Chest X-ray to basket">Add</button></td>
+            </tr>
+            <tr>
+              <th scope="row">Ultrasound Abdomen</th>
+              <td>Fast for 6 hours, full bladder</td>
+              <td>Same day</td>
+              <td class="price">1,200</td>
+              <td class="action"><button type="button" class="mini-btn add-test" data-id="usg" data-name="Ultrasound Abdomen" data-price="1200" aria-label="Add Ultrasound Abdomen to basket">Add</button></td>
+            </tr>
+            <tr>
+              <th scope="row">ECG</th>
+              <td>No preparation</td>
+              <td>Immediate</td>
+              <td class="price">300</td>
+              <td class="action"><button type="button" class="mini-btn add-test" data-id="ecg" data-name="ECG" data-price="300" aria-label="Add ECG to basket">Add</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ============ TEST BASKET (DOM ADD / MODIFY / REMOVE) ============ -->
+    <section id="basket" aria-labelledby="basket-title">
+      <h2 id="basket-title">Your test basket</h2>
+      <p class="lede">Add tests from the price list, set how many people each test is for, then continue to booking.</p>
+
+      <div class="basket-layout">
+        <div class="basket-panel">
+          <p id="basket-empty" class="basket-empty">Your basket is empty. Choose tests from the price list above.</p>
+          <p id="basket-summary" class="basket-summary" hidden></p>
+          <ul id="basket-list" class="basket-list"></ul>
+          <div class="basket-total" aria-live="polite">
+            <span>Estimated total</span>
+            <span id="basket-total">INR 0</span>
+          </div>
+          <div class="actions">
+            <button type="button" class="button" id="basket-continue" disabled>Continue to booking</button>
+            <button type="button" class="button secondary" id="basket-clear" disabled>Clear basket</button>
+          </div>
+        </div>
+
+        <div class="custom-panel">
+          <h3>Need a test that isn't listed?</h3>
+          <p>Add it to your basket and we will quote the price at the centre.</p>
+          <div class="field">
+            <label for="custom-name">Test name</label>
+            <input type="text" id="custom-name" maxlength="60" placeholder="e.g. Dengue NS1 antigen" autocomplete="off">
+          </div>
+          <button type="button" class="button" id="custom-add">Add to basket</button>
+          <p id="custom-msg" class="hint" role="status"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HEALTH PACKAGES ============ -->
+    <section id="packages" aria-labelledby="packages-title">
+      <h2 id="packages-title">Health check packages</h2>
+      <p class="lede">Bundled tests at a lower price than booking each one separately.</p>
+
+      <div class="packages">
+        <article>
+          <h3>Basic Health Check</h3>
+          <p class="cost">INR 999</p>
+          <ul>
+            <li>CBC</li>
+            <li>Fasting blood sugar</li>
+            <li>Lipid profile</li>
+            <li>Urine routine</li>
+          </ul>
+          <button type="button" class="button select-package" data-package="basic" data-name="Basic Health Check">Select package</button>
+        </article>
+
+        <article class="featured">
+          <span class="badge">Most popular</span>
+          <h3>Heart Care Package</h3>
+          <p class="cost">INR 2,499</p>
+          <ul>
+            <li>Lipid profile</li>
+            <li>ECG</li>
+            <li>Echocardiogram</li>
+            <li>Doctor consultation</li>
+          </ul>
+          <button type="button" class="button select-package" data-package="heart" data-name="Heart Care Package">Select package</button>
+        </article>
+
+        <article>
+          <h3>Senior Citizen Package</h3>
+          <p class="cost">INR 3,999</p>
+          <ul>
+            <li>Full blood and sugar panel</li>
+            <li>Thyroid and Vitamin D</li>
+            <li>Kidney and liver function</li>
+            <li>Chest X-ray and ECG</li>
+          </ul>
+          <button type="button" class="button select-package" data-package="senior" data-name="Senior Citizen Package">Select package</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ IMAGE GALLERY (CSS GRID) ============ -->
+    <section id="gallery" aria-labelledby="gallery-title">
+      <h2 id="gallery-title">Our facilities</h2>
+      <p class="lede">A look at the rooms where your tests are collected, scanned and reported.</p>
+
+      <ul class="gallery-grid">
+        <li>
+          <figure>
+            <img src="images/pathology-lab.svg" alt="Illustration of a laboratory flask and sample tubes on a bench" width="400" height="300" loading="lazy">
+            <figcaption>
+              <strong>Pathology laboratory</strong>
+              Automated analysers process blood and urine samples. Most routine reports are ready the same day.
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="images/xray-room.svg" alt="Illustration of a chest X-ray film showing ribs and lungs" width="400" height="300" loading="lazy">
+            <figcaption>
+              <strong>X-ray room</strong>
+              Digital X-ray gives a clear image in minutes. Remove metal items before you enter.
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="images/ultrasound-suite.svg" alt="Illustration of an ultrasound monitor with a scanning probe" width="400" height="300" loading="lazy">
+            <figcaption>
+              <strong>Ultrasound suite</strong>
+              Abdomen and pelvis scans are done by trained sonographers. Follow the fasting and full-bladder instructions.
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="images/sample-collection.svg" alt="Illustration of a sample collection chair with an arm rest and a blood tube" width="400" height="300" loading="lazy">
+            <figcaption>
+              <strong>Sample collection area</strong>
+              A seated, private space for blood draws. Our staff use single-use needles for every patient.
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="images/ecg-room.svg" alt="Illustration of a heart monitor showing an ECG trace" width="400" height="300" loading="lazy">
+            <figcaption>
+              <strong>ECG and heart care</strong>
+              Quick, painless heart tracing with results reviewed by a doctor during your visit.
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="images/reception-desk.svg" alt="Illustration of a reception desk with a staff member and a monitor" width="400" height="300" loading="lazy">
+            <figcaption>
+              <strong>Reception and report desk</strong>
+              Check in, collect printed reports and book follow-up visits. Bring a photo ID.
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ MULTIMEDIA: VIDEO, AUDIO, IFRAME ============ -->
+    <section id="media" aria-labelledby="media-title">
+      <h2 id="media-title">Watch, listen and find us</h2>
+      <p class="lede">Learn how to prepare for a test, hear our waiting-room music and find us on the map.</p>
+
+      <!-- Video + audio -->
+      <div class="media-grid">
+        <figure class="media-card">
+          <video controls preload="metadata" poster="media/test-preparation-poster.jpg" width="960" height="540">
+            <source src="media/test-preparation.mp4" type="video/mp4">
+            <track kind="captions" src="media/test-preparation.vtt" srclang="en" label="English" default>
+            Your browser does not support the video tag.
+            <a href="media/test-preparation.mp4">Download the video</a>.
+          </video>
+          <figcaption>
+            Video: how to prepare for a blood test (16 seconds, English captions available).
+          </figcaption>
+          <details>
+            <summary>Read the video transcript</summary>
+            <p>Preparing for your blood test at Meridian Diagnostic Centre. For fasting tests, do not eat for 8 to 12 hours; water is allowed. Bring a photo ID and any previous reports. Ready to book? Use the booking form on this page.</p>
+          </details>
+        </figure>
+
+        <figure class="media-card">
+          <h3>Waiting-room music</h3>
+          <audio controls preload="none">
+            <source src="media/waiting-room-tune.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            <a href="media/waiting-room-tune.mp3">Download the audio</a>.
+          </audio>
+          <figcaption>
+            Audio: a calming instrumental tune played in our waiting area. There is no speech, so no transcript is needed.
+          </figcaption>
+        </figure>
+      </div>
+
+      <!-- Embedded map (iframe) -->
+      <h3>Find us</h3>
+      <iframe class="map-frame"
+              title="Map showing the location of Meridian Diagnostic Centre in Chennai"
+              src="https://www.google.com/maps?q=Chennai,Tamil+Nadu&amp;output=embed"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen>
+      </iframe>
+      <p>
+        Map not loading?
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=Chennai+Tamil+Nadu" target="_blank" rel="noopener">Open it in Google Maps</a>.
+      </p>
+    </section>
+
+    <!-- ============ HOW IT WORKS (ORDERED LIST) ============ -->
+    <section id="how-it-works" aria-labelledby="how-title">
+      <h2 id="how-title">How booking works</h2>
+      <ol>
+        <li>Choose your tests from the price list or select a health package.</li>
+        <li>Fill in the booking form with your details and preferred date and time.</li>
+        <li>Receive a confirmation call or message from our team.</li>
+        <li>Visit the centre, or choose home sample collection where available.</li>
+        <li>Download your report online or collect a printed copy.</li>
+      </ol>
+      <p>
+        New to testing? Read our
+        <a href="https://www.who.int/health-topics/laboratory-services" target="_blank" rel="noopener">guide to laboratory services (WHO)</a>
+        to learn what common tests measure.
+      </p>
+    </section>
+
+    <!-- ============ FAQ (OPEN / CLOSE SECTIONS) ============ -->
+    <section id="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title">Frequently asked questions</h2>
+      <div class="faq">
+        <div class="faq-item">
+          <h3>
+            <button type="button" class="toggle-btn" aria-expanded="false" aria-controls="faq-1">
+              <span>Can I drink water before a fasting test?</span><span class="chevron" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="collapsible" id="faq-1"><div><p>Yes. Plain water is fine and makes blood collection easier. Avoid tea, coffee, juice and chewing gum until your sample is taken.</p></div></div>
+        </div>
+        <div class="faq-item">
+          <h3>
+            <button type="button" class="toggle-btn" aria-expanded="false" aria-controls="faq-2">
+              <span>How soon will I get my report?</span><span class="chevron" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="collapsible" id="faq-2"><div><p>Most routine blood tests are reported the same day. Thyroid and Vitamin D tests take until the next day, and X-ray reports are ready in about 2 hours. We send a download link by email and SMS.</p></div></div>
+        </div>
+        <div class="faq-item">
+          <h3>
+            <button type="button" class="toggle-btn" aria-expanded="false" aria-controls="faq-3">
+              <span>Do I need a doctor's prescription?</span><span class="chevron" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="collapsible" id="faq-3"><div><p>Not for most health checks. If your doctor has ordered specific tests, upload the prescription in the booking form so we can match them exactly.</p></div></div>
+        </div>
+        <div class="faq-item">
+          <h3>
+            <button type="button" class="toggle-btn" aria-expanded="false" aria-controls="faq-4">
+              <span>How does home sample collection work?</span><span class="chevron" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="collapsible" id="faq-4"><div><p>Choose "Home collection" in the booking form and add your address. A trained technician visits between 6:30 AM and 10:00 AM and brings your sample to our laboratory.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BOOKING FORM ============ -->
+    <section id="book" aria-labelledby="book-title">
+      <h2 id="book-title">Book an appointment</h2>
+
+      <!-- Shown after a successful booking -->
+      <div class="collapsible confirmation" id="confirmation">
+        <div>
+          <div class="confirm-card">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='22' fill='%230e6f75'/%3E%3Cpath d='M14 25l7 7 14-15' fill='none' stroke='%23fff' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" alt="" width="48" height="48">
+            <div>
+              <h3>Booking request received</h3>
+              <dl id="confirm-summary"></dl>
+              <p>We will confirm your appointment by call or SMS shortly.</p>
+              <button type="button" class="button secondary" id="confirm-close">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="booking-layout">
+        <form action="#" method="post" enctype="multipart/form-data">
+          <p class="hint form-note">Fields marked <abbr class="req" title="required">*</abbr> are required.</p>
+
+          <fieldset>
+            <legend>Patient details</legend>
+
+            <div class="field">
+              <label for="name">Full name <abbr class="req" title="required">*</abbr></label>
+              <input type="text" id="name" name="name" required minlength="2" maxlength="60"
+                     pattern="[A-Za-z .'\-]{2,60}" placeholder="e.g. Priya Raman"
+                     title="Use letters, spaces and . ' - only" autocomplete="name">
+            </div>
+
+            <div class="field">
+              <label for="age">Age (years) <abbr class="req" title="required">*</abbr></label>
+              <input type="number" id="age" name="age" required min="1" max="120" step="1" inputmode="numeric">
+            </div>
+
+            <div class="field">
+              <label for="dob">Date of birth <abbr class="req" title="required">*</abbr></label>
+              <input type="date" id="dob" name="dob" required min="1900-01-01">
+            </div>
+
+            <div class="radios" role="radiogroup" aria-labelledby="gender-label">
+              <p class="group-title" id="gender-label">Gender <abbr class="req" title="required">*</abbr></p>
+              <label><input type="radio" name="gender" value="female" required> Female</label>
+              <label><input type="radio" name="gender" value="male"> Male</label>
+              <label><input type="radio" name="gender" value="other"> Other / prefer not to say</label>
+            </div>
+
+            <div class="field">
+              <label for="phone">Mobile number <abbr class="req" title="required">*</abbr>
+                <span class="hint">10 digits, starting with 6, 7, 8 or 9</span></label>
+              <input type="tel" id="phone" name="phone" required pattern="[6-9][0-9]{9}"
+                     maxlength="10" inputmode="numeric" autocomplete="tel-national"
+                     title="Enter a 10-digit mobile number starting with 6, 7, 8 or 9">
+            </div>
+
+            <div class="field">
+              <label for="email">Email address <abbr class="req" title="required">*</abbr>
+                <span class="hint">We will send your confirmation and report link here</span></label>
+              <input type="email" id="email" name="email" required autocomplete="email"
+                     placeholder="name@example.com">
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Test selection</legend>
+
+            <div class="field">
+              <label for="package">Health package (optional)</label>
+              <select id="package" name="package">
+                <option value="">No package, I will choose tests below</option>
+                <optgroup label="Health packages">
+                  <option value="basic">Basic Health Check (INR 999)</option>
+                  <option value="heart">Heart Care Package (INR 2,499)</option>
+                  <option value="senior">Senior Citizen Package (INR 3,999)</option>
+                </optgroup>
+              </select>
+            </div>
+
+            <div class="checks">
+              <p class="group-title">Individual tests <span class="hint inline">(choose a package or at least one test)</span></p>
+              <label><input type="checkbox" name="tests" value="cbc"> Complete Blood Count</label>
+              <label><input type="checkbox" name="tests" value="sugar"> Fasting Blood Sugar</label>
+              <label><input type="checkbox" name="tests" value="lipid"> Lipid Profile</label>
+              <label><input type="checkbox" name="tests" value="thyroid"> Thyroid Profile</label>
+              <label><input type="checkbox" name="tests" value="vitd"> Vitamin D</label>
+              <label><input type="checkbox" name="tests" value="xray"> Chest X-ray</label>
+              <label><input type="checkbox" name="tests" value="usg"> Ultrasound Abdomen</label>
+              <label><input type="checkbox" name="tests" value="ecg"> ECG</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Appointment</legend>
+
+            <div class="radios" role="radiogroup" aria-labelledby="collection-label">
+              <p class="group-title" id="collection-label">Sample collection <abbr class="req" title="required">*</abbr></p>
+              <label><input type="radio" name="collection" value="centre" required checked> Visit the centre</label>
+              <label><input type="radio" name="collection" value="home"> Home collection</label>
+            </div>
+
+            <div class="field">
+              <label for="address">Home address (for home collection)</label>
+              <textarea id="address" name="address" rows="2" maxlength="200"
+                        placeholder="House number, street, area, PIN code"></textarea>
+            </div>
+
+            <div class="field">
+              <label for="date">Preferred date <abbr class="req" title="required">*</abbr></label>
+              <input type="date" id="date" name="date" required min="2026-11-23">
+            </div>
+
+            <div class="field">
+              <label for="slot">Time slot <abbr class="req" title="required">*</abbr></label>
+              <select id="slot" name="slot" required>
+                <option value="">Select a slot</option>
+                <option value="0700">7:00 AM to 9:00 AM (fasting tests)</option>
+                <option value="0900">9:00 AM to 12:00 PM</option>
+                <option value="1200">12:00 PM to 4:00 PM</option>
+                <option value="1600">4:00 PM to 7:00 PM</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="notes">Notes for the lab (optional)
+                <span class="hint">Up to 300 characters, for example allergies or mobility needs</span></label>
+              <textarea id="notes" name="notes" rows="3" maxlength="300"></textarea>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Documents and account</legend>
+
+            <div class="field">
+              <label for="prescription">Doctor's prescription (optional)
+                <span class="hint">PDF, JPG or PNG</span></label>
+              <input type="file" id="prescription" name="prescription" accept=".pdf,.jpg,.jpeg,.png,application/pdf,image/jpeg,image/png">
+            </div>
+
+            <div class="field">
+              <label for="password">Create a password to view your reports <abbr class="req" title="required">*</abbr>
+                <span class="hint">At least 8 characters with a letter and a number</span></label>
+              <input type="password" id="password" name="password" required minlength="8" maxlength="64"
+                     pattern="(?=.*[A-Za-z])(?=.*[0-9]).{8,64}" autocomplete="new-password"
+                     title="Use at least 8 characters, including a letter and a number">
+            </div>
+
+            <div class="checks">
+              <label><input type="checkbox" name="consent" value="yes" required>
+                I agree to the centre's terms and to my details being used for this booking. <abbr class="req" title="required">*</abbr></label>
+              <label><input type="checkbox" name="reminders" value="yes" checked>
+                Send me appointment reminders by SMS and email.</label>
+            </div>
+          </fieldset>
+
+          <div class="actions">
+            <button type="submit" class="button">Confirm booking</button>
+            <button type="reset" class="button secondary">Clear form</button>
+          </div>
+        </form>
+
+        <aside aria-labelledby="hours-title">
+          <h3 id="hours-title">Centre hours</h3>
+          <dl>
+            <dt>Monday to Saturday</dt>
+            <dd>7:00 AM to 7:00 PM</dd>
+            <dt>Sunday</dt>
+            <dd>7:00 AM to 1:00 PM</dd>
+            <dt>Home collection</dt>
+            <dd>6:30 AM to 10:00 AM, on request</dd>
+          </dl>
+          <p>Bring a photo ID and any previous reports or doctor's prescription.</p>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer id="contact">
+    <div class="footer-inner">
+      <section aria-labelledby="visit-title">
+        <h2 id="visit-title">Visit us</h2>
+        <address>
+          Meridian Diagnostic Centre<br>
+          12, Lake View Road<br>
+          Chennai, Tamil Nadu 600 000
+        </address>
+      </section>
+
+      <section aria-labelledby="reach-title">
+        <h2 id="reach-title">Contact</h2>
+        <ul>
+          <li>Phone: <a href="tel:+914400000000">+91 44 0000 0000</a></li>
+          <li>Email: <a href="mailto:care@meridiandiagnostics.example">care@meridiandiagnostics.example</a></li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="links-title">
+        <h2 id="links-title">Quick links</h2>
+        <ul>
+          <li><a href="#tests">Tests</a></li>
+          <li><a href="#price-list">Price list</a></li>
+          <li><a href="#packages">Health packages</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#media">Video &amp; map</a></li>
+          <li><a href="#book">Book a test</a></li>
+        </ul>
+      </section>
+    </div>
+    <p class="copyright">&copy; 2026 Meridian Diagnostic Centre. Test results should be reviewed by a qualified doctor.</p>
+  </footer>
+
+  <!-- Notification toast: slides in, then hides itself -->
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='22' fill='%230e6f75'/%3E%3Cpath d='M14 25l7 7 14-15' fill='none' stroke='%23fff' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" alt="" width="22" height="22">
+    <span id="toast-text"></span>
+  </div>
+
+  <!-- Fixed-position call button: stays in the corner while scrolling -->
+  <a class="call-fab" href="tel:+914400000000" aria-label="Call Meridian Diagnostic Centre">Call us</a>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
+:root {
+  --ink: #14262c;
+  --muted: #4d6168;
+  --paper: #f5f8f7;
+  --white: #ffffff;
+  --teal: #0e6f75;
+  --teal-dark: #0a4f54;
+  --line: #cfdcda;
+  --signal: #b8480f;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--ink);
+  background: var(--paper);
+}
+a { color: var(--teal); }
+a:focus-visible, button:focus-visible, input:focus-visible,
+select:focus-visible, textarea:focus-visible {
+  outline: 3px solid var(--signal);
+  outline-offset: 2px;
+}
+h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; line-height: 1.2; }
+h1 { font-size: 2.4rem; margin: 0 0 .5rem; }
+h2 { font-size: 1.7rem; margin-top: 0; }
+h3 { font-size: 1.2rem; margin-top: 0; }
+
+/* ===== Header and responsive navigation (Flexbox) ===== */
+header.site-header { background: var(--teal-dark); color: var(--white); }
+
+/* Outer bar: brand on the left, menu on the right */
+.header-inner {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+}
+.brand { display: flex; flex-direction: row; align-items: center; gap: .8rem; }
+.brand img { width: 52px; height: 52px; }
+.brand h1 { font-size: 1.6rem; margin: 0; }
+.brand p { margin: 0; font-size: .9rem; opacity: .85; }
+
+/* Menu: a horizontal row of links that wraps when space runs out */
+nav { flex: 1 1 auto; }
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: .4rem 1.2rem;
+}
+nav a {
+  display: block;
+  color: var(--white);
+  text-decoration: none;
+  padding: .35rem 0;
+  border-bottom: 2px solid transparent;
+}
+nav a:hover { border-bottom-color: var(--white); }
+
+/* Call-to-action link styled as a button */
+nav li.nav-cta a {
+  background: var(--signal);
+  padding: .45rem 1rem;
+  border-radius: 4px;
+  border-bottom: none;
+  font-weight: 600;
+}
+nav li.nav-cta a:hover { background: #983b0a; }
+
+/* Tablet: brand stacks above the menu, menu spans the full width */
+@media (max-width: 900px) {
+  .header-inner { flex-direction: column; align-items: flex-start; }
+  nav { width: 100%; }
+  nav ul { justify-content: flex-start; }
+}
+
+/* Phone: menu becomes a vertical list with full-width tap targets */
+@media (max-width: 560px) {
+  nav ul { flex-direction: column; align-items: stretch; gap: 0; }
+  nav li { border-top: 1px solid rgba(255, 255, 255, .2); }
+  nav a { padding: .8rem 0; border-bottom: none; }
+  nav a:hover { text-decoration: underline; }
+  nav li.nav-cta { border-top: none; padding-top: .6rem; }
+  nav li.nav-cta a { text-align: center; padding: .8rem 1rem; }
+}
+
+/* Layout */
+main { max-width: 1050px; margin: 0 auto; padding: 0 1rem 2rem; }
+main > section { padding: 2.2rem 0; border-bottom: 1px solid var(--line); }
+main > section:last-child { border-bottom: none; }
+
+.hero { display: grid; grid-template-columns: 1.2fr 1fr; gap: 2rem; align-items: center; }
+.hero img { width: 100%; height: auto; border-radius: 6px; }
+.lede { font-size: 1.1rem; color: var(--muted); max-width: 60ch; }
+.button {
+  display: inline-block; background: var(--signal); color: var(--white);
+  padding: .7rem 1.4rem; border-radius: 4px; text-decoration: none; font-weight: 600;
+  border: none; font-size: 1rem; cursor: pointer;
+}
+.button:hover { background: #983b0a; }
+
+.test-groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem; }
+article.test-group { background: var(--white); border: 1px solid var(--line); border-radius: 6px; padding: 1.2rem; }
+article.test-group img { width: 48px; height: 48px; }
+article.test-group ul { padding-left: 1.2rem; margin-bottom: 0; }
+
+/* Table */
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; background: var(--white); min-width: 640px; }
+caption { text-align: left; padding: .6rem 0; color: var(--muted); font-size: .95rem; }
+th, td { border: 1px solid var(--line); padding: .6rem .8rem; text-align: left; vertical-align: top; }
+thead th { background: var(--teal); color: var(--white); }
+tbody tr:nth-child(even) { background: #eef4f3; }
+td.price { white-space: nowrap; font-variant-numeric: tabular-nums; }
+
+.packages { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.2rem; }
+.packages article { background: var(--white); border: 1px solid var(--line); border-left: 5px solid var(--teal); padding: 1.2rem; border-radius: 4px; }
+.packages .cost { font-size: 1.4rem; font-weight: 700; color: var(--signal); margin: .2rem 0 .6rem; }
+
+/* Booking */
+.booking-layout { display: grid; grid-template-columns: 1.5fr 1fr; gap: 2rem; align-items: start; }
+form { background: var(--white); border: 1px solid var(--line); border-radius: 6px; padding: 1.4rem; }
+fieldset { border: 1px solid var(--line); border-radius: 4px; margin: 0 0 1rem; padding: .8rem 1rem 1rem; }
+legend { font-weight: 600; padding: 0 .4rem; }
+.field { margin-bottom: .9rem; }
+label { display: block; font-weight: 600; margin-bottom: .25rem; }
+input[type="text"], input[type="tel"], input[type="email"], input[type="date"],
+input[type="number"], input[type="password"], input[type="file"],
+select, textarea {
+  width: 100%; padding: .55rem .6rem; font: inherit;
+  border: 1px solid #8fa3a1; border-radius: 4px; background: var(--white);
+}
+.checks label { font-weight: 400; display: flex; gap: .5rem; align-items: center; margin-bottom: .3rem; }
+.hint { display: block; font-size: .85rem; font-weight: 400; color: var(--muted); margin-top: .2rem; }
+abbr.req { color: var(--signal); text-decoration: none; font-weight: 700; }
+.radios { margin: 0 0 .9rem; }
+.radios label, .checks label { font-weight: 400; display: flex; gap: .5rem; align-items: center; margin-bottom: .3rem; }
+.group-title { margin: 0 0 .3rem; font-weight: 600; }
+input:user-invalid, select:user-invalid, textarea:user-invalid { border-color: #b3261e; background: #fdf1f0; }
+.actions { display: flex; flex-wrap: wrap; gap: .8rem; }
+.button.secondary { background: transparent; color: var(--ink); border: 2px solid var(--ink); }
+.button.secondary:hover { background: #e3ecea; }
+aside { background: var(--white); border: 1px solid var(--line); border-radius: 6px; padding: 1.2rem; }
+aside h3 { margin-bottom: .4rem; }
+aside dl { margin: 0; }
+aside dt { font-weight: 600; }
+aside dd { margin: 0 0 .7rem; color: var(--muted); }
+
+/* Multimedia */
+figure { margin: 0; }
+figcaption { font-size: .9rem; color: var(--muted); padding-top: .4rem; }
+.hero-figure img { display: block; }
+.media-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 2rem; align-items: start; margin-bottom: 2rem; }
+video { width: 100%; height: auto; display: block; border-radius: 6px; background: #000; }
+audio { width: 100%; margin-top: .4rem; }
+.media-card { background: var(--white); border: 1px solid var(--line); border-radius: 6px; padding: 1rem; }
+.map-frame { width: 100%; height: 360px; border: 1px solid var(--line); border-radius: 6px; display: block; background: var(--white); }
+details { margin-top: .6rem; }
+summary { cursor: pointer; color: var(--teal); font-weight: 600; }
+@media (max-width: 760px) { .media-grid { grid-template-columns: 1fr; } }
+
+/* Footer */
+footer { background: var(--ink); color: #d6e2e0; }
+.footer-inner {
+  max-width: 1050px; margin: 0 auto; padding: 1.8rem 1rem;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem;
+}
+footer h2 { font-size: 1.1rem; color: var(--white); }
+footer a { color: #9fd8dc; }
+footer ul { list-style: none; margin: 0; padding: 0; }
+footer address { font-style: normal; }
+.copyright { text-align: center; padding: .9rem 1rem; border-top: 1px solid #2c4249; font-size: .9rem; }
+
+@media (max-width: 760px) {
+  .hero, .booking-layout { grid-template-columns: 1fr; }
+  h1 { font-size: 1.9rem; }
+}
+
+/* =====================================================================
+   CSS POSITIONING TECHNIQUES
+   ===================================================================== */
+
+/* 1. STATIC (the default)
+   Elements follow the normal document flow. top/left/z-index have no effect.
+   Page sections and intro text use it, so we state it explicitly. */
+main > section,
+.lede { position: static; }
+
+/* 2. RELATIVE
+   The element stays in the flow but can be nudged from its normal spot, and
+   it becomes the anchor ("containing block") for absolutely positioned children. */
+.packages article { position: relative; }
+.packages article.featured {
+  top: -6px;                       /* lifted 6px above its row */
+  border-left-color: var(--signal);
+  box-shadow: 0 6px 14px rgba(20, 38, 44, .12);
+}
+.hero-figure { position: relative; }
+
+/* 3. ABSOLUTE
+   The element leaves the flow and is placed relative to the nearest
+   positioned ancestor (the relative parents above). */
+.badge {
+  position: absolute;
+  top: -12px;
+  right: 14px;
+  background: var(--signal);
+  color: var(--white);
+  font-size: .85rem;
+  font-weight: 600;
+  padding: .2rem .7rem;
+  border-radius: 999px;
+}
+.tag-float {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: var(--teal-dark);
+  color: var(--white);
+  font-size: .85rem;
+  font-weight: 600;
+  padding: .3rem .7rem;
+  border-radius: 4px;
+}
+
+/* 4. FIXED
+   Positioned relative to the browser window, so it stays put while scrolling. */
+.call-fab {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 90;
+  background: var(--teal-dark);
+  color: var(--white);
+  font-weight: 600;
+  text-decoration: none;
+  padding: .75rem 1.2rem;
+  border-radius: 999px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .3);
+}
+.call-fab:hover { background: var(--teal); }
+footer { padding-bottom: 3.5rem; }   /* keeps footer text clear of the fixed button */
+
+/* 5. STICKY
+   Scrolls normally, then "sticks" at the given offset once it reaches it. */
+
+/* 5a. Table header stays visible while the price list scrolls */
+.table-wrap { max-height: 360px; overflow: auto; border: 1px solid var(--line); }
+.table-wrap thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 2px 0 var(--teal-dark);
+}
+
+/* 5b. Site header and the "Centre hours" card stick on larger screens only,
+   so phones keep their full viewport. */
+@media (min-width: 901px) {
+  html { scroll-padding-top: 9.5rem; }          /* anchor links stop below the sticky header */
+  header.site-header { position: sticky; top: 0; z-index: 100; }
+}
+@media (min-width: 761px) {
+  aside { position: sticky; top: 9.5rem; }
+}
+
+/* =====================================================================
+   IMAGE GALLERY (CSS Grid)
+   ===================================================================== */
+.gallery-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);   /* desktop: 3 columns */
+  gap: 1.2rem;
+}
+.gallery-grid figure {
+  height: 100%;                            /* equal-height cards in each row */
+  display: flex;
+  flex-direction: column;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.gallery-grid img {
+  width: 100%;
+  aspect-ratio: 4 / 3;                     /* every image gets the same dimensions */
+  object-fit: cover;
+  display: block;
+}
+.gallery-grid figcaption {
+  padding: .8rem 1rem 1rem;
+  font-size: .95rem;
+  color: var(--muted);
+}
+.gallery-grid figcaption strong {
+  display: block;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.1rem;
+  color: var(--ink);
+  margin-bottom: .2rem;
+}
+@media (max-width: 760px) { .gallery-grid { grid-template-columns: repeat(2, 1fr); } }  /* tablet */
+@media (max-width: 480px) { .gallery-grid { grid-template-columns: 1fr; } }              /* phone */
+
+/* =====================================================================
+   ANIMATIONS AND INTERACTIONS
+   ===================================================================== */
+
+/* ---- Keyframes ---- */
+@keyframes fadeUp   { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+@keyframes popIn    { 0% { opacity: 0; transform: scale(.4); } 70% { transform: scale(1.15); } 100% { opacity: 1; transform: scale(1); } }
+@keyframes slideDown{ from { opacity: 0; transform: translateY(-12px); } to { opacity: 1; transform: none; } }
+@keyframes shake    { 0%, 100% { transform: translateX(0); } 20%, 60% { transform: translateX(-7px); } 40%, 80% { transform: translateX(7px); } }
+@keyframes selectPop{ 0% { transform: scale(1); } 40% { transform: scale(1.04); } 100% { transform: scale(1); } }
+@keyframes fabPulse {
+  0%   { box-shadow: 0 4px 12px rgba(0, 0, 0, .3), 0 0 0 0 rgba(14, 111, 117, .65); }
+  100% { box-shadow: 0 4px 12px rgba(0, 0, 0, .3), 0 0 0 16px rgba(14, 111, 117, 0); }
+}
+
+/* ---- Page load: hero content fades up once ---- */
+.hero > div { animation: fadeUp .7s ease both; }
+.hero-figure { animation: fadeUp .7s ease .15s both; }
+
+/* ---- Hover feedback ---- */
+nav a, .button, .toggle-btn { transition: background .2s ease, border-color .2s ease, transform .15s ease; }
+.button:hover { transform: translateY(-2px); }
+.button:active { transform: scale(.97); }
+
+article.test-group, .packages article { transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease; }
+article.test-group:hover, .packages article:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgba(20, 38, 44, .14);
+}
+.gallery-grid img { transition: transform .45s ease; }
+.gallery-grid figure:hover img { transform: scale(1.07); }
+
+.call-fab { animation: fabPulse 1.6s ease-out 2s 3; transition: background .2s ease, transform .2s ease; }
+.call-fab:hover { transform: scale(1.06); }
+
+/* ---- Collapsible panels (test tips, FAQ, booking confirmation) ---- */
+.collapsible {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  visibility: hidden;                       /* keeps hidden content out of the tab order */
+  transition: grid-template-rows .35s ease, opacity .35s ease, visibility 0s linear .35s;
+}
+.collapsible > div { min-height: 0; overflow: hidden; }
+.collapsible.is-open {
+  grid-template-rows: 1fr;
+  opacity: 1;
+  visibility: visible;
+  transition: grid-template-rows .35s ease, opacity .35s ease, visibility 0s;
+}
+.collapsible p { margin: .7rem 0 0; color: var(--muted); }
+
+/* Toggle button with a chevron that rotates when open */
+.toggle-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  margin-top: .9rem;
+  padding: .6rem .8rem;
+  background: transparent;
+  color: var(--teal-dark);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  font: inherit;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+}
+.toggle-btn:hover { background: #eef4f3; border-color: var(--teal); }
+.toggle-btn:focus-visible { outline: 3px solid var(--signal); outline-offset: 2px; }
+.chevron {
+  flex-shrink: 0;
+  width: .55rem;
+  height: .55rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform .3s ease;
+}
+.toggle-btn.is-open .chevron { transform: rotate(225deg); }
+
+/* FAQ accordion */
+.faq { display: flex; flex-direction: column; gap: .6rem; max-width: 760px; }
+.faq-item { background: var(--white); border: 1px solid var(--line); border-radius: 6px; }
+.faq-item h3 { margin: 0; font-size: 1.05rem; }
+.faq .toggle-btn { margin: 0; padding: 1rem; border: none; background: transparent; }
+.faq .toggle-btn:hover { background: #eef4f3; }
+.faq .collapsible p { margin: 0; padding: 0 1rem 1rem; }
+
+/* ---- Package selection feedback ---- */
+.packages article.selected {
+  border-color: var(--teal);
+  box-shadow: 0 0 0 3px rgba(14, 111, 117, .35);
+  animation: selectPop .45s ease;
+}
+
+/* ---- Booking confirmation card ---- */
+.confirm-card {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  padding: 1.2rem;
+  background: #e9f5f2;
+  border: 1px solid var(--teal);
+  border-left: 6px solid var(--teal);
+  border-radius: 6px;
+}
+.confirm-card h3 { margin-bottom: .6rem; }
+.confirm-card dl { display: grid; grid-template-columns: max-content 1fr; gap: .2rem 1rem; margin: 0 0 .8rem; }
+.confirm-card dt { font-weight: 600; }
+.confirm-card dd { margin: 0; }
+.confirm-card p { margin: 0 0 .8rem; color: var(--muted); }
+.confirmation.is-open .confirm-card { animation: slideDown .5s ease both; }
+.confirmation.is-open .confirm-card img { animation: popIn .6s ease .2s both; }
+
+/* ---- Submit button shake when the form is invalid ---- */
+.button.shake { animation: shake .45s ease; }
+
+/* ---- Notification toast ---- */
+.toast {
+  position: fixed;
+  left: 1rem;
+  bottom: 1rem;
+  z-index: 95;
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  max-width: min(22rem, calc(100% - 7.5rem));
+  padding: .75rem 1rem;
+  background: var(--ink);
+  color: var(--white);
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, .3);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(24px);
+  transition: opacity .3s ease, transform .3s ease, visibility 0s linear .3s;
+}
+.toast.show {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition: opacity .3s ease, transform .3s ease, visibility 0s;
+}
+.toast img { flex-shrink: 0; }
+
+/* ---- Respect users who prefer reduced motion ---- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    animation-delay: 0s !important;
+    transition-duration: .01ms !important;
+    transition-delay: 0s !important;
+  }
+}
+
+/* =====================================================================
+   DYNAMIC TEST BASKET (built and changed with JavaScript)
+   ===================================================================== */
+[hidden] { display: none !important; }
+
+/* Add button inside the price table */
+td.action { text-align: right; white-space: nowrap; }
+.mini-btn {
+  padding: .3rem .9rem;
+  font: inherit;
+  font-size: .9rem;
+  font-weight: 600;
+  color: var(--white);
+  background: var(--teal);
+  border: 1px solid var(--teal);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background .2s ease, transform .15s ease;
+}
+.mini-btn:hover:not(:disabled) { background: var(--teal-dark); transform: translateY(-1px); }
+.mini-btn:disabled { background: #8fa3a1; border-color: #8fa3a1; cursor: default; }
+
+/* Count badge in the navigation */
+.count {
+  position: relative;
+  top: -1px;
+  display: inline-block;
+  min-width: 1.4rem;
+  margin-left: .2rem;
+  padding: 0 .4rem;
+  background: var(--signal);
+  color: var(--white);
+  border-radius: 999px;
+  font-size: .8rem;
+  line-height: 1.4rem;
+  text-align: center;
+}
+
+/* Basket layout */
+.basket-layout { display: grid; grid-template-columns: 1.6fr 1fr; gap: 1.5rem; align-items: start; }
+.basket-panel, .custom-panel {
+  padding: 1.2rem;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+.basket-empty { margin: 0; padding: .6rem 0; color: var(--muted); }
+.basket-summary { margin: 0 0 .4rem; }
+.basket-list { list-style: none; margin: 0; padding: 0; }
+
+.basket-item {
+  display: grid;
+  grid-template-columns: 1fr auto auto auto;
+  align-items: center;
+  gap: .5rem .9rem;
+  padding: .7rem 0;
+  border-bottom: 1px solid var(--line);
+  animation: slideDown .3s ease;                       /* new items slide in */
+  transition: opacity .25s ease, transform .25s ease;
+}
+.basket-item.removing { opacity: 0; transform: translateX(24px); }   /* removed items slide out */
+.item-name { display: block; font-weight: 600; }
+.item-price { display: block; font-size: .85rem; color: var(--muted); }
+.qty { display: flex; align-items: center; gap: .4rem; margin: 0; font-weight: 400; }
+.qty input { width: 4.2rem; }
+.item-subtotal { min-width: 5.5rem; text-align: right; font-weight: 600; font-variant-numeric: tabular-nums; }
+.remove-btn {
+  padding: .3rem .7rem;
+  font: inherit;
+  font-size: .9rem;
+  color: #b3261e;
+  background: transparent;
+  border: 1px solid #b3261e;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.remove-btn:hover { background: #fdf1f0; }
+
+.basket-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: .6rem 0 1rem;
+  padding-top: .8rem;
+  border-top: 2px solid var(--ink);
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.custom-panel p { margin-top: 0; color: var(--muted); }
+.custom-panel .hint { min-height: 1.3rem; margin-top: .6rem; }
+.hint.error { color: #b3261e; }
+.hint.ok { color: var(--teal-dark); }
+
+.button:disabled { background: #8fa3a1; cursor: not-allowed; }
+.button.secondary:disabled { background: transparent; color: #6c7f7d; border: 2px solid #9fb0ae; }
+.button:disabled:hover { transform: none; }
+
+@media (max-width: 900px) { .basket-layout { grid-template-columns: 1fr; } }
+@media (max-width: 560px) {
+  .basket-item { grid-template-columns: 1fr 1fr auto; }
+  .item-info { grid-column: 1 / -1; }
+  .item-subtotal { text-align: left; }
+}
+// Meridian Diagnostic Centre: interactions and animations
+
+// ---------- Date limits: no past appointments, no future birth dates ----------
+(function () {
+  var t = new Date();
+  var m = String(t.getMonth() + 1).padStart(2, "0");
+  var d = String(t.getDate()).padStart(2, "0");
+  var today = t.getFullYear() + "-" + m + "-" + d;
+  document.getElementById("date").min = today;
+  document.getElementById("dob").max = today;
+})();
+
+// ---------- Notification toast ----------
+var toast = document.getElementById("toast");
+var toastText = document.getElementById("toast-text");
+var toastTimer;
+
+function showToast(message) {
+  toastText.textContent = message;
+  toast.classList.add("show");                 // slides in
+  clearTimeout(toastTimer);                    // restart the timer if one is already running
+  toastTimer = setTimeout(function () {
+    toast.classList.remove("show");            // slides out after 3.5 seconds
+  }, 3500);
+}
+
+// ---------- Open / close panels (test tips and FAQ) ----------
+var toggleButtons = document.querySelectorAll(".toggle-btn");
+
+function setPanel(button, open) {
+  var panel = document.getElementById(button.getAttribute("aria-controls"));
+  if (open) {
+    panel.classList.add("is-open");
+    button.classList.add("is-open");
+  } else {
+    panel.classList.remove("is-open");
+    button.classList.remove("is-open");
+  }
+  button.setAttribute("aria-expanded", open ? "true" : "false");
+}
+
+toggleButtons.forEach(function (button) {
+  button.addEventListener("click", function () {
+    var willOpen = !button.classList.contains("is-open");
+    // FAQ works as an accordion: opening one closes the others
+    var faq = button.closest(".faq");
+    if (faq && willOpen) {
+      faq.querySelectorAll(".toggle-btn").forEach(function (other) { setPanel(other, false); });
+    }
+    setPanel(button, willOpen);
+  });
+});
+
+// ---------- Package selection ----------
+var packageSelect = document.getElementById("package");
+var packageButtons = document.querySelectorAll(".select-package");
+
+function syncPackage(value) {
+  packageButtons.forEach(function (btn) {
+    var card = btn.closest("article");
+    var isChosen = value !== "" && btn.dataset.package === value;
+    if (isChosen) {
+      card.classList.add("selected");
+      btn.textContent = "Selected";
+    } else {
+      card.classList.remove("selected");
+      btn.textContent = "Select package";
+    }
+  });
+}
+
+packageButtons.forEach(function (btn) {
+  btn.addEventListener("click", function () {
+    packageSelect.value = btn.dataset.package;
+    syncPackage(packageSelect.value);
+    showToast(btn.dataset.name + " added to your booking form.");
+  });
+});
+packageSelect.addEventListener("change", function () { syncPackage(packageSelect.value); });
+
+// ---------- Booking form ----------
+var form = document.querySelector("#book form");
+var submitBtn = form.querySelector('button[type="submit"]');
+var resetBtn = form.querySelector('button[type="reset"]');
+var confirmation = document.getElementById("confirmation");
+var summary = document.getElementById("confirm-summary");
+
+function addSummaryRow(label, value) {
+  var dt = document.createElement("dt");
+  var dd = document.createElement("dd");
+  dt.textContent = label;
+  dd.textContent = value;
+  summary.appendChild(dt);
+  summary.appendChild(dd);
+}
+
+function buildSummary() {
+  var data = new FormData(form);
+  var tests = [];
+  form.querySelectorAll('input[name="tests"]:checked').forEach(function (box) {
+    tests.push(box.parentNode.textContent.trim());
+  });
+  var slot = form.elements["slot"];
+  var parts = data.get("date").split("-");
+  var niceDate = new Date(parts[0], parts[1] - 1, parts[2]).toLocaleDateString("en-IN", {
+    day: "numeric", month: "long", year: "numeric"
+  });
+
+  summary.textContent = "";
+  addSummaryRow("Name", data.get("name"));
+  addSummaryRow("Date", niceDate);
+  addSummaryRow("Time", slot.options[slot.selectedIndex].text);
+  addSummaryRow("Package", packageSelect.value ? packageSelect.options[packageSelect.selectedIndex].text : "None");
+  addSummaryRow("Tests", tests.length ? tests.join(", ") : "None selected");
+  addSummaryRow("Collection", data.get("collection") === "home" ? "Home collection" : "Visit the centre");
+}
+
+// Invalid form: shake the button and show a notification
+submitBtn.addEventListener("click", function () {
+  if (!form.checkValidity()) {
+    submitBtn.classList.add("shake");
+    setTimeout(function () { submitBtn.classList.remove("shake"); }, 500);
+    showToast("Please complete the highlighted fields.");
+  }
+});
+
+// Valid form: show the confirmation card (this static page sends nothing to a server)
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
+  buildSummary();
+  confirmation.classList.add("is-open");
+  confirmation.scrollIntoView({ behavior: "smooth", block: "start" });
+  showToast("Booking request received. We will confirm shortly.");
+  form.reset();
+  clearBasket();                      // the basket has been booked, so empty it
+});
+
+resetBtn.addEventListener("click", function () { showToast("Form cleared."); });
+form.addEventListener("reset", function () {
+  setTimeout(function () { syncPackage(packageSelect.value); }, 0);   // wait for the reset to finish
+});
+
+document.getElementById("confirm-close").addEventListener("click", function () {
+  confirmation.classList.remove("is-open");
+});
+
+// ---------- Test basket: add, modify, display and remove items with the DOM ----------
+var basketList = document.getElementById("basket-list");
+var basketEmpty = document.getElementById("basket-empty");
+var basketSummary = document.getElementById("basket-summary");
+var basketTotal = document.getElementById("basket-total");
+var basketCount = document.getElementById("basket-count");
+var continueBtn = document.getElementById("basket-continue");
+var clearBtn = document.getElementById("basket-clear");
+var customInput = document.getElementById("custom-name");
+var customAddBtn = document.getElementById("custom-add");
+var customMsg = document.getElementById("custom-msg");
+
+function formatINR(amount) {
+  return "INR " + amount.toLocaleString("en-IN");
+}
+
+// Number of people a test is booked for: a whole number from 1 to 10
+function readQty(input) {
+  var qty = parseInt(input.value, 10);
+  if (isNaN(qty) || qty < 1) { return 1; }
+  return Math.min(qty, 10);
+}
+
+// Build one basket row (li) from scratch
+function createBasketItem(id, name, price, isCustom) {
+  var li = document.createElement("li");
+  li.className = "basket-item";
+  li.setAttribute("data-id", id);
+  li.setAttribute("data-name", name);
+  li.setAttribute("data-price", price);
+  li.setAttribute("data-custom", isCustom ? "true" : "false");
+
+  var info = document.createElement("div");
+  info.className = "item-info";
+  var nameEl = document.createElement("span");
+  nameEl.className = "item-name";
+  nameEl.textContent = name;                       // textContent keeps typed text safe
+  var priceEl = document.createElement("span");
+  priceEl.className = "item-price";
+  priceEl.textContent = isCustom ? "Price quoted at the centre" : formatINR(price) + " per person";
+  info.appendChild(nameEl);
+  info.appendChild(priceEl);
+
+  var qtyLabel = document.createElement("label");
+  qtyLabel.className = "qty";
+  qtyLabel.appendChild(document.createTextNode("People"));
+  var qtyInput = document.createElement("input");
+  qtyInput.setAttribute("type", "number");
+  qtyInput.setAttribute("min", "1");
+  qtyInput.setAttribute("max", "10");
+  qtyInput.setAttribute("value", "1");
+  qtyInput.setAttribute("aria-label", "Number of people for " + name);
+  qtyLabel.appendChild(qtyInput);
+
+  var subtotal = document.createElement("span");
+  subtotal.className = "item-subtotal";
+  subtotal.textContent = isCustom ? "-" : formatINR(price);
+
+  var removeBtn = document.createElement("button");
+  removeBtn.setAttribute("type", "button");
+  removeBtn.className = "remove-btn";
+  removeBtn.textContent = "Remove";
+  removeBtn.setAttribute("aria-label", "Remove " + name + " from basket");
+
+  li.appendChild(info);
+  li.appendChild(qtyLabel);
+  li.appendChild(subtotal);
+  li.appendChild(removeBtn);
+  return li;
+}
+
+// Recalculate everything that is displayed from the current list items
+function updateBasket() {
+  var items = basketList.querySelectorAll(".basket-item");
+  var total = 0;
+  items.forEach(function (item) {
+    if (item.dataset.custom === "true") { return; }
+    var subtotal = Number(item.dataset.price) * readQty(item.querySelector(".qty input"));
+    item.querySelector(".item-subtotal").textContent = formatINR(subtotal);
+    total += subtotal;
+  });
+
+  var count = items.length;
+  basketSummary.innerHTML = "<strong>" + count + "</strong> test" + (count === 1 ? "" : "s") + " in your basket";
+  basketTotal.textContent = formatINR(total);
+  basketCount.textContent = count;
+  basketCount.hidden = count === 0;
+  basketEmpty.hidden = count !== 0;
+  basketSummary.hidden = count === 0;
+  continueBtn.disabled = count === 0;
+  clearBtn.disabled = count === 0;
+}
+
+function addToBasket(id, name, price, isCustom) {
+  if (basketList.querySelector('[data-id="' + id + '"]')) { return false; }   // already there
+  basketList.appendChild(createBasketItem(id, name, price, isCustom));
+  updateBasket();
+  return true;
+}
+
+function removeBasketItem(li) {
+  if (li.classList.contains("removing")) { return; }
+  var id = li.getAttribute("data-id");
+  var name = li.getAttribute("data-name");
+  li.classList.add("removing");                    // play the slide-out first
+  setTimeout(function () {
+    li.remove();
+    var addBtn = document.querySelector('.add-test[data-id="' + id + '"]');
+    if (addBtn) {
+      addBtn.removeAttribute("disabled");
+      addBtn.textContent = "Add";
+    }
+    updateBasket();
+    showToast(name + " removed from your basket.");
+  }, 250);
+}
+
+function clearBasket() {
+  basketList.innerHTML = "";
+  document.querySelectorAll(".add-test").forEach(function (btn) {
+    btn.removeAttribute("disabled");
+    btn.textContent = "Add";
+  });
+  updateBasket();
+}
+
+// "Add" buttons in the price list
+document.querySelectorAll(".add-test").forEach(function (btn) {
+  btn.addEventListener("click", function () {
+    var added = addToBasket(btn.dataset.id, btn.dataset.name, Number(btn.dataset.price), false);
+    if (added) {
+      btn.setAttribute("disabled", "");
+      btn.textContent = "Added";
+      showToast(btn.dataset.name + " added to your basket.");
+    }
+  });
+});
+
+// One listener on the list handles every row: remove button and quantity changes
+basketList.addEventListener("click", function (event) {
+  var removeBtn = event.target.closest(".remove-btn");
+  if (removeBtn) { removeBasketItem(removeBtn.closest(".basket-item")); }
+});
+basketList.addEventListener("input", updateBasket);
+basketList.addEventListener("change", function (event) {
+  if (event.target.matches(".qty input")) {
+    event.target.value = readQty(event.target);    // tidy up empty or out-of-range values
+    updateBasket();
+  }
+});
+
+clearBtn.addEventListener("click", function () {
+  clearBasket();
+  showToast("Basket cleared.");
+});
+
+// Add a test that is not on the price list
+function showCustomMessage(text, isError) {
+  customMsg.textContent = text;
+  customMsg.className = "hint " + (isError ? "error" : "ok");
+  if (isError) {
+    customInput.setAttribute("aria-invalid", "true");
+  } else {
+    customInput.removeAttribute("aria-invalid");
+  }
+}
+
+function addCustomTest() {
+  var name = customInput.value.trim().replace(/\s+/g, " ");
+  if (name.length < 3) {
+    showCustomMessage("Enter at least 3 characters for the test name.", true);
+    customInput.focus();
+    return;
+  }
+  var id = "custom-" + name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+  if (!addToBasket(id, name, 0, true)) {
+    showCustomMessage("That test is already in your basket.", true);
+    return;
+  }
+  customInput.value = "";
+  showCustomMessage(name + " added. We will quote the price at the centre.", false);
+}
+
+customAddBtn.addEventListener("click", addCustomTest);
+customInput.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") { event.preventDefault(); addCustomTest(); }
+});
+
+// Copy the basket into the booking form
+continueBtn.addEventListener("click", function () {
+  form.querySelectorAll('input[name="tests"]').forEach(function (box) { box.checked = false; });
+
+  var groupLines = [];
+  var extras = [];
+  basketList.querySelectorAll(".basket-item").forEach(function (item) {
+    var qty = readQty(item.querySelector(".qty input"));
+    if (item.dataset.custom === "true") {
+      extras.push(item.dataset.name);
+      return;
+    }
+    var box = form.querySelector('input[name="tests"][value="' + item.dataset.id + '"]');
+    if (box) { box.checked = true; }
+    if (qty > 1) { groupLines.push(item.dataset.name + " x" + qty); }
+  });
+
+  var lines = [];
+  if (groupLines.length) { lines.push("Tests for several people: " + groupLines.join("; ") + "."); }
+  if (extras.length) { lines.push("Additional tests requested: " + extras.join(", ") + "."); }
+
+  var notesField = document.getElementById("notes");
+  var base = notesField.value.split("[Basket]")[0].trim();      // keep what the patient typed
+  var block = lines.length ? "[Basket] " + lines.join(" ") : "";
+  notesField.value = ((base && block) ? base + "\n" : base) + block;
+  notesField.value = notesField.value.slice(0, 300);
+
+  showToast("Basket tests added to the booking form.");
+  document.getElementById("book").scrollIntoView({ behavior: "smooth", block: "start" });
+});
+
+updateBasket();   // set the starting state (empty basket)
